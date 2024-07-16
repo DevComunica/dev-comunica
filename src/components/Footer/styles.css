@@ -1,0 +1,7 @@
+@import url('../../index.css');
+
+.footer-container {
+    height: 330px;
+    color: var(--white);
+    background-color: var(--erie-black);
+}

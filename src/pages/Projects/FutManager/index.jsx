@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from '../../../components'
+import { Navbar, Footer } from '../../../components'
 import './styles.css'
 
 export default function FutManager() {
@@ -7,6 +7,7 @@ export default function FutManager() {
         <div>
             <Navbar />
             <h1>Hii, você está na FUTMANAGER</h1>
+            <Footer />
         </div>
     )
 }
