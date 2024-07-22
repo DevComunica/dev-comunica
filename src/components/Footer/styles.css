@@ -72,8 +72,22 @@
     padding: 16px 32px;
     cursor: pointer;
     font-family: Poppins;
+    border-radius: 10px;
 }
 
 .footer-container .footer-main-content .item .btn-container {
+    display: flex;
+    flex-direction: row;
     gap: 10px;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    background-color: var(--white);
+    color: var(--erie-black);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--white);
 }

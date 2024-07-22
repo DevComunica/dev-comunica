@@ -30,10 +30,10 @@ export default function Footer() {
                     <p>Contate-nos</p>
                     <div className='btn-container'>
                         <a href="">
-                            <button>Ir para o WhatsApp</button>
+                            <button className='btn-primary'>Ir para o WhatsApp</button>
                         </a>
                         <a href="">
-                            <button>Enviar e-mail</button>
+                            <button className='btn-secondary'>Enviar e-mail</button>
                         </a>
                     </div>
                 </div>
