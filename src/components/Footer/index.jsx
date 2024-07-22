@@ -10,7 +10,7 @@ export default function Footer() {
         <footer className='footer-container'>
             <div className='footer-main-content'>
                 <div className='item'>
-                    <img src={LogotypeWhite} />
+                    <img src={LogotypeWhite} className='img-footer' />
                 </div>
                 <div className='item'>
                     <a href="">Relatório da disciplina de PSI</a>
@@ -26,8 +26,8 @@ export default function Footer() {
                         <a href="">Futmanager</a>
                     </div>
                 </div>
-                <div className='item'>
-                    <p>Contate-nos</p>
+                <div className='item item-contact'>
+                    <p className='contact-p'>Contate-nos</p>
                     <div className='btn-container'>
                         <a href="">
                             <button className='btn-primary'>Ir para o WhatsApp</button>
@@ -59,4 +59,3 @@ export default function Footer() {
         </footer>
     )
 }
-
