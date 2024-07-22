@@ -1,7 +1,79 @@
 @import url('../../index.css');
 
 .footer-container {
-    height: 330px;
+    /* height: 330px; */
     color: var(--white);
     background-color: var(--erie-black);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.footer-container .footer-final-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-container .footer-final-line .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-container .footer-final-line .links .item-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-container .footer-final-line .links .item-link a,
+.footer-container .footer-main-content .item .item-link a,
+.footer-container .footer-main-content .item a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-container p,
+.footer-container a {
+    font-size: 14px;
+}
+
+.footer-container hr {
+    margin-bottom: 20px;
+    opacity: .5;
+}
+
+.footer-container .footer-main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container .footer-main-content .item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container .footer-main-content .item .item-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-container .footer-main-content .item .btn-container button {
+    border: 2px solid var(--white);
+    padding: 16px 32px;
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+.footer-container .footer-main-content .item .btn-container {
+    gap: 10px;
 }
