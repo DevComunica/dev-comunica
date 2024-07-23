@@ -1,0 +1,15 @@
+.Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  
+  .Section {
+    width: 80%;
+    margin: 1rem 0;
+    padding: 2rem;
+    border: 1px solid #ccc;
+  }
+  
