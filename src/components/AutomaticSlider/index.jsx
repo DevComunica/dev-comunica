@@ -3,8 +3,14 @@ import './styles.css'
 
 export default function AutomaticSlider() {
     return (
-        <div>
-            <h1>Hii, eu sou o AUTOMATIC SLIDER</h1>
+        <div className='slider'>
+            <div className='slide-track'>
+                {[...Array(15)].map((_, index) => (
+                    <div className='slide' key={index}>
+                        <img src={`src/assets/images/slider/image-${index % 5 + 1}.png`} />
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

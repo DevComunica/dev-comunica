@@ -1,0 +1,135 @@
+@import url('../../index.css');
+
+.container-main-home .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    gap: 40px;
+}
+
+.container-main-home .header .header-child,
+.container-main-home .about .about-child {
+    width: 100%;
+}
+
+.container-main-home .header .header-child p {
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container-main-home .header .header-child h1.main-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+}
+
+.container-main-home .header .header-child h2.main-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 56px;
+    font-weight: 300;
+}
+
+/* styles for about */
+.container-main-home .about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+    gap: 70px;
+}
+
+.container-main-home .about .about-child h3.subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.tags-container .tags-1,
+.tags-container .tags-2,
+.tags-container .tags-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.tag {
+    padding: 12px 24px;
+    background-color: aqua;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    color: var(--white);
+}
+
+.tags-1 :first-child,
+.tags-3 :last-child {
+    background-color: var(--palatinate-blue);
+}
+
+.tags-2 .tag {
+    background-color: var(--tropical-indigo);
+}
+
+.tags-1 :last-child,
+.tags-3 :first-child {
+    background-color: var(--folly);
+}
+
+h3.slider-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: right;
+}
+
+p.slider-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+.slider-section {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* .container-main-home img.ilustration-1 {
+    position: absolute;
+    left: -152px;
+}
+
+.container-main-home img.ilustration-2 {
+
+    right: -18px;
+    object-fit: ;
+} */
+
+/* PSI, Práticas em Sociedade e Informática, é uma disciplina do curso de Análise e Desenvolvimento de Sistemas que integra conhecimento científico às necessidades comunitárias. Ela aborda a cultura extensionista, aspectos legais, documentação do IFSP, metodologias de pesquisa e desenvolvimento de projetos de extensão, com o estudante como protagonista. */
