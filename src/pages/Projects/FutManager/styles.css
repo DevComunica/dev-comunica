@@ -1,15 +1,147 @@
+@import url('../../../index.css');
+
 .Content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-  }
-  
-  .Section {
-    width: 80%;
-    margin: 1rem 0;
-    padding: 2rem;
-    border: 1px solid #ccc;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.Section {
+  width: 80%;
+  margin: 1rem 0;
+  padding: 2rem;
+  border: 1px solid #ccc;
+}
+
+
+
+/* codes by manu */
+
+.container-main-project .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 7%;
+  gap: 120px;
+}
+
+.gradient-retangle {
+  width: 570px;
+  height: 250px;
+  background: linear-gradient(360deg, rgba(133, 139, 255, 0) 0%, #858BFF 100%);
+  border-radius: 30px;
+  position: absolute;
+  z-index: -1;
+  top: 330px;
+}
+
+.container-main-project .header .header-image {
+  display: flex;
+  flex-direction: row;
+  margin-right: -10%;
+}
+
+.container-main-project .header .header-image img.mockup-img {
+  margin-right: -25px;
+}
+
+.container-main-project .header .header-child h1.header-title {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 120px;
+}
+
+.container-main-project .header .header-child p.header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+/* isso vai virar componente */
+
+.functionalities {
+  padding: 7% 10% 10% 10%;
+}
+
+.card-blue-container {
+  width: 100%;
+  padding: 3px;
+  height: min-content;
+  border-radius: 15px;
+  background: linear-gradient(180deg,
+      var(--neon-blue) 0%,
+      var(--black) 100%);
+  flex: 1 1 250px;
+  min-width: 250px;
+}
+
+.card-red-container {
+  width: 100%;
+  padding: 3px;
+  height: min-content;
+  border-radius: 15px;
+  background: linear-gradient(180deg,
+      var(--folly) 0%,
+      var(--black) 100%);
+  flex: 1 1 250px;
+  min-width: 250px;
+}
+
+.card-content {
+  width: calc(100% - 70px);
+  height: min-content;
+  border-radius: 12px;
+  background-color: var(--white);
+  padding: 35px;
+}
+
+.card-content h1.function-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.card-content p.function-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.icon-container {
+  width: 53px;
+  height: 53px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.card-red-container .icon-container {
+  border: 3px solid var(--folly);
+  color: var(--folly);
+}
+
+.card-blue-container .icon-container {
+  border: 3px solid var(--neon-blue);
+  color: var(--neon-blue);
+}
+
+.functionalities-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
