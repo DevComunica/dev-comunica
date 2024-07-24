@@ -121,6 +121,72 @@ p.slider-subtitle {
     padding-right: 10%;
 }
 
+.teacher-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    gap: 80px;
+    margin-bottom: 150px;
+}
+
+.teacher-container .teacher-img {
+    width: 300px;
+    height: 300px;
+}
+
+.teacher-container .teacher-text .teacher-name {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--erie-black);
+}
+
+.teacher-container .teacher-text .teacher-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--erie-black);
+    opacity: 0.6;
+    margin-bottom: 36px;
+}
+
+.teacher-container .teacher-text .teacher-about {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    color: var(--black);
+}
+
+.experiences-container {
+    background-color: var(--erie-black);
+    color: var(--white);
+    margin-bottom: 150px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.experiences-container h1.experience-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.experiences-container p.experience-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    opacity: 0.6;
+}
+
 /* .container-main-home img.ilustration-1 {
     position: absolute;
     left: -152px;
@@ -132,4 +198,135 @@ p.slider-subtitle {
     object-fit: ;
 } */
 
-/* PSI, Práticas em Sociedade e Informática, é uma disciplina do curso de Análise e Desenvolvimento de Sistemas que integra conhecimento científico às necessidades comunitárias. Ela aborda a cultura extensionista, aspectos legais, documentação do IFSP, metodologias de pesquisa e desenvolvimento de projetos de extensão, com o estudante como protagonista. */
+.slider-comment-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    position: relative;
+    width: calc(100vw - 20px);
+    overflow: hidden;
+}
+
+.slide-comment-track {
+    display: flex;
+    width: auto;
+    animation: scroll 90s linear infinite;
+    gap: 14px;
+}
+
+.slide-comment-track:hover {
+    animation-play-state: running;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% + 20px));
+    }
+}
+
+/* styles for projects container */
+
+.projects-container {
+    margin-bottom: 120px;
+}
+
+.projects-container h1.projects-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--erie-black);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-container .btn-projects-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.projects-container .btn-projects-container a button {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid var(--erie-black);
+    color: var(--erie-black);
+    padding: 14px 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.projects-container .btn-projects-container a button.active-link,
+.projects-container .btn-projects-container a button:hover {
+    color: var(--white);
+    background-color: var(--erie-black);
+}
+
+/* styles for social media container */
+
+/* img.social-media-image {
+    width: 100px;
+    height: auto;
+} */
+
+.social-medias-container .final-content {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 12%; */
+}
+
+.social-medias-container iframe {
+    border: 5px solid var(--black);
+    border-radius: 30px;
+}
+
+.social-medias-container p.social-media-text {
+    width: 400px;
+    position: absolute;
+    left: 20%;
+    margin-top: -25px
+}
+
+.social-medias-container p.social-media-title {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 100%;
+    color: var(--black);
+    position: absolute;
+    left: 30%;
+    margin-top: 32px;
+}
+
+#frame {
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+}
+
+p.profile-name {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    transform: rotate(90deg);
+    margin-left: 367px;
+    margin-top: -110px;
+    width: min-content;
+}

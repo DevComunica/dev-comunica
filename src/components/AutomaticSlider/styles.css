@@ -7,13 +7,13 @@
     flex-direction: row;
     place-items: center;
     overflow: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .slide-track {
     display: flex;
     width: 100%;
-    animation: scroll 45s linear infinite;
+    animation: scroll 90s linear infinite;
 }
 
 .slide-track:hover {
