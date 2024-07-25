@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Footer, CardBlue } from '../../../components'
 import Mockup from '../../../assets/images/mockup-notebook.png'
 import './styles.css'
+import gifnote from '../../../assets/images/gifnote.gif';
 
 // icons 
 import { PiJoystick } from "react-icons/pi";
@@ -13,19 +14,6 @@ export default function FutManager() {
     return (
         <div>
             <Navbar />
-            {/* <main className="Content">
-                <div className="Section" style={{ backgroundColor: 'lightblue' }}>Seção 1
-                    <p>futmanager e fotinho note</p></div>
-
-                <div className="Section" style={{ backgroundColor: 'lightgreen' }}>Seção 2
-                    <p>funcionalidades</p></div>
-
-                <div className="Section" style={{ backgroundColor: 'lightcoral' }}>Seção 3
-                    <p>experiencia clientes</p></div>
-
-                <div className="Section" style={{ backgroundColor: 'lightgoldenrodyellow' }}>Seção 4
-                    <p>futpaz e fotinho</p></div>
-            </main> */}
 
             <div className='container-main-project'>
                 <div className='header'>
@@ -80,8 +68,22 @@ export default function FutManager() {
                         />
                     </div>
                 </div>
+                <div className='experiences-container2'>
+                    <h1 className='experience-title2'>Experiência para os clientes</h1>
+                    <p className='experience-subtitle2'>Veja como os clientes se sentiram tendo a 
+                        experiência de terem</p>
+                    <p className='experience-subtitle2'>seu software facilitando o dia a dia deles.</p>
+                </div>
+                {/*img {gifnote}*/}
+                <div className='header2'>
+                    <div className='header-child2'>
+                        <h1 className='header-title2'>Futpaz</h1>
+                        <p className='header-text2'>O Projeto Social FutPaz [Futpaz 2022], fica situado em um bairro carente da cidade de Piracicaba-SP, e é uma  entre as idades de 7 a 14 anos (sub 9, sub 11, sub 13 e sub 15).
+                           escola especializada no ensino da prática de futebol para crianças,
+                            Atualmente, esta escola atende em torno de 80 crianças e pré-adolescentes que buscam um aperfeiçoamento dentro do esporte, ofertando aulas e treinamentos, além de oferecer outros benefícios ao aluno, por mérito do jogador, e a sua família, por meio de sorteios.</p>
+                    </div>
             </div>
             <Footer />
         </div>
-    )
-}
+    </div>
+)}
