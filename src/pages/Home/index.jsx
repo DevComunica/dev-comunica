@@ -91,61 +91,76 @@ export default function Home() {
                     <div className='slider-comment-container'>
                         <div className='slide-comment-track'>
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
                                 img={JK}
                                 name='Jungkook BTS'
                                 role='dev backend'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
+                                Ver tudo funcionando bem foi muito gratificante!"'
                                 img={Tae}
                                 name='Kim Taehyung'
                                 role='dev fullstack'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
                                 img={JK}
                                 name='Jungkook BTS'
                                 role='dev backend'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
+                                Ver tudo funcionando bem foi muito gratificante!"'
                                 img={Tae}
                                 name='Kim Taehyung'
                                 role='dev fullstack'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
                                 img={JK}
                                 name='Jungkook BTS'
                                 role='dev backend'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
+                                Ver tudo funcionando bem foi muito gratificante!"'
                                 img={Tae}
                                 name='Kim Taehyung'
                                 role='dev fullstack'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
                                 img={JK}
                                 name='Jungkook BTS'
                                 role='dev backend'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
+                                Ver tudo funcionando bem foi muito gratificante!"'
                                 img={Tae}
                                 name='Kim Taehyung'
                                 role='dev fullstack'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
                                 img={JK}
                                 name='Jungkook BTS'
                                 role='dev backend'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
+                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
+                                Ver tudo funcionando bem foi muito gratificante!"'
                                 img={Tae}
                                 name='Kim Taehyung'
                                 role='dev fullstack'
