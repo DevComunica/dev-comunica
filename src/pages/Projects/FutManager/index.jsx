@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Footer, CardBlue, CardRed, CardComment } from '../../../components'
+import { Navbar, Footer, CardBlue, CardRed, CardComment, Slider } from '../../../components'
 import Mockup from '../../../assets/images/mockup-notebook.png'
 import './styles.css'
 import gifnote from '../../../assets/images/gifnote.gif';
@@ -13,6 +13,13 @@ import { MdOutlineSportsSoccer } from "react-icons/md";
 import { FaRunning } from "react-icons/fa";
 
 export default function FutManager() {
+
+    const images = [
+        'src/assets/images/futmanager/img1.png',
+        'src/assets/images/futmanager/img2.png',
+        'src/assets/images/futmanager/img3.png'
+    ]
+
     return (
         <div>
             <Navbar />
@@ -116,7 +123,7 @@ export default function FutManager() {
                             aperfeiçoamento dentro do esporte, ofertando aulas e treinamentos, além de oferecer
                             outros benefícios ao aluno, por mérito do jogador, e a sua família, por meio de sorteios.</p>
                     </div>
-                    <div className="slider-container"></div>
+                    <Slider images={images} />
                 </div>
                 <Footer />
             </div>
