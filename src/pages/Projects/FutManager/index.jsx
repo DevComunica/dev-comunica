@@ -11,6 +11,7 @@ import { PiJoystick } from "react-icons/pi";
 import { MdOutlineSavings } from "react-icons/md";
 import { MdOutlineSportsSoccer } from "react-icons/md";
 import { FaRunning } from "react-icons/fa";
+import { GoLocation } from "react-icons/go";
 
 export default function FutManager() {
 
@@ -115,12 +116,16 @@ export default function FutManager() {
                 <div className='about-context'>
                     <div className='about-context-child'>
                         <h1 className='about-context-title'>Futpaz</h1>
+                        <div className='about-context-subtitle'>
+                            <GoLocation />
+                            <p>Projeto Social | Piracicaba, SP</p>
+                        </div>
                         <p>O Projeto Social FutPaz [Futpaz 2022], fica situado em um bairro carente da cidade de
-                            Piracicaba-SP, e é uma escola especializada no ensino da prática de futebol para crianças
+                            Piracicaba-SP, e é uma <b>escola especializada no ensino da prática de futebol para crianças</b>
                             entre as idades de 7 a 14 anos (sub 9, sub 11, sub 13 e sub 15).</p> <br />
 
-                        <p>Atualmente, esta escola atende em torno de 80 crianças e pré-adolescentes que buscam um
-                            aperfeiçoamento dentro do esporte, ofertando aulas e treinamentos, além de oferecer
+                        <p>Atualmente, esta escola atende em torno de <b>80 crianças e pré-adolescentes que buscam um
+                            aperfeiçoamento dentro do esporte</b>, ofertando aulas e treinamentos, além de oferecer
                             outros benefícios ao aluno, por mérito do jogador, e a sua família, por meio de sorteios.</p>
                     </div>
                     <Slider images={images} />

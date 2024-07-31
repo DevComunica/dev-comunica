@@ -1,24 +1,5 @@
 @import url('../../../index.css');
 
-/*.Content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 80vh;
-}
-
-.Section {
-  width: 80%;
-  margin: 1rem 0;
-  padding: 2rem;
-  border: 1px solid #ccc;
-}*/
-
-
-
-/* codes by manu */
-
 .container-main-project .header {
   display: flex;
   flex-direction: row;
@@ -123,51 +104,20 @@
   }
 }
 
-
-
-/*by lisa - e a manu meteu o dedo */
-
-/* .experiences-container2 {
-  background-color: var(--erie-black);
-  color: var(--white);
-  margin-bottom: 150px;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.experiences-container2 h1.experience-title2 {
-  font-family: 'Sora';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  width: 55%;
-}
-
-.experiences-container2 p.experience-subtitle2 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 28px;
-  opacity: 0.6;
-  width: 54%;
-} */
-
-/*img {
-  width: 100%;
-  max-width: 300px;
-}*/
-
 .container-main-project .about-context {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 6%;
+  padding-right: 6%;
   padding-bottom: 10%;
   margin-top: -50px;
-  gap: 120px;
+  gap: 100px;
+}
+
+.container-main-project .about-context .about-context-child {
+  width: 50%;
 }
 
 .container-main-project .header .header-child2 h1.header-title2 {
@@ -184,4 +134,30 @@
   font-size: 14px;
   line-height: 28px;
   text-align: justify;
+}
+
+.container-main-project .about-context .about-context-child h1.about-context-title {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 120px;
+}
+
+.container-main-project .about-context .about-context-child p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.container-main-project .about-context .about-context-child .about-context-subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+  opacity: .7;
 }
