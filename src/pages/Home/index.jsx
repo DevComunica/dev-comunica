@@ -91,56 +91,58 @@ export default function Home() {
                     <div className='slider-comment-container'>
                         <div className='slide-comment-track'>
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
-                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Fazer parte da equipe desenvolvedora do projeto envolveu atividades muito ricas para nossa experiência 
+                                acadêmica. Trabalhar no Futmanager demonstrou, de maneira próxima à realidade, como é estar envolvido num grande projeto 
+                                construído por tecnologias de desenvolvimento atuais e composto por grandes times."'
                                 img={JK}
-                                name='Jungkook BTS'
-                                role='dev backend'
+                                name='Andrey de Assis'
+                                role='Desenvolvimento'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
-                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
-                                Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"Foi uma ótima experiência para mostrar que nunca estamos totalmente preparados, não importa a faculdade 
+                                pronta que você tem, sempre terá que aprender mais para alcançar os objetivos"'
                                 img={Tae}
-                                name='Kim Taehyung'
-                                role='dev fullstack'
+                                name='Phelipe Gonçalves'
+                                role='Desenvolvimento'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
-                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Um projeto de extensão com a sociedade representa uma ponte vital entre o conhecimento acadêmico e as 
+                                necessidades reais das comunidades. Aqui no IFSP,  a extensão se manifesta como uma missão de aplicar os saberes 
+                                adquiridos em benefício da sociedade em geral, promovendo não apenas o desenvolvimento técnico e científico, mas 
+                                também o engajamento cidadão e a melhoria da qualidade de vida."'
                                 img={JK}
-                                name='Jungkook BTS'
-                                role='dev backend'
+                                name='Sabrina Campos'
+                                role='Desenvolvimento'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
-                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
-                                Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"O projeto une os  estudantes e professores, para elaboração de um sistema de escolinha de futebol comunitária, 
+                                a qual precisava de uma administração mais ágil, para não acumular muito serviço aos voluntários. "'
                                 img={Tae}
-                                name='Kim Taehyung'
-                                role='dev fullstack'
+                                name='Gibran Khalil'
+                                role='Desenvolvimento'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
-                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Os benefícios são mútuos. Os acadêmicos ganham experiências profissionais na tecnologia, trabalhando como se fosse 
+                                uma empresa, enquanto os participantes da comunidade recebem o sistema que auxilia no seu dia a dia."'
                                 img={JK}
-                                name='Jungkook BTS'
-                                role='dev backend'
+                                name='Julia Barbosa'
+                                role='Desenvolvimento'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
-                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores. 
-                                Ver tudo funcionando bem foi muito gratificante!"'
+                                description='"Fiz parte da Equipe de Mídias e foi uma experiência incrível participar desse projeto.
+                                Construímos a identidade visual de nosso Instagram, para trazer um conteúdo informativo e criativo ao mesmo tempo."'
                                 img={Tae}
-                                name='Kim Taehyung'
-                                role='dev fullstack'
+                                name='Elisa Reis'
+                                role='Mídias Sociais'
                             />
                             <CardComment
-                                description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
-                                Foi empolgante criar uma API robusta para gerenciar as estatísticas dos jogadores."'
+                                description='"Participar do projeto de extensão para melhorar o código do site da ONG "Futpaz" foi uma experiência interessante, 
+                                apesar dos desafios. Trabalhar na otimização do site ofereceu uma boa oportunidade para aplicar conhecimentos técnicos, mas houve 
+                                alguns obstáculos com a configuração da máquina virtual que complicaram o processo. Ainda assim, a experiência contribuiu para o 
+                                desenvolvimento das minhas habilidades."'
                                 img={JK}
-                                name='Jungkook BTS'
-                                role='dev backend'
+                                name='Camilly Lima'
+                                role='Desenvolvimento'
                             />
                             <CardComment
                                 description='"Trabalhei no backend do FutManager, focando em Node.js e MongoDB. 
